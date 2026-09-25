@@ -5,54 +5,76 @@ const IS_SUBMISSION_OPEN = true;
 
 const settingsDatabase = {
   "IIDX": {
-    songs: ["Primitive Vibes"],
-    difficulties: ["SPN", "SPH", "SPA"],
-    description: "提出する値：EXスコア"
+    songs: [
+      "BENiZAKURA",
+      "九十九ノ恋結ビ",
+      "月下散刄"
+    ],
+    difficulties: [
+      "BEGINNER",
+      "NORMAL",
+      "HYPER",
+      "ANOTHER",
+      "LEGGENDARIA"
+    ],
   },
   "SDVX": {
-    songs: ["S(TAR)²☆pistol"],
-    difficulties: ["NOV", "ADV", "EXH", "MXM"],
+    songs: [
+      "It's All Right",
+      "いますぐ輪廻",
+      "モノノケ狂想曲"
+    ],
+    difficulties: [
+      "NOV",
+      "ADV",
+      "EXH",
+      "MXM"
+    ],
     description: "提出する値：通常スコア"
   },
   "CHUNITHM": {
-    songs: ["ハジマリノピアノ"],
-    difficulties: ["BAS", "ADV", "EXP", "MAS"],
+    songs: [
+      "inkar-usi",
+      "ERIS -Legend of Gaidelia-",
+      "Nijirate Fanatics"
+    ],
+    difficulties: [
+      "BASIC",
+      "ADVANCED",
+      "EXPERT",
+      "MASTER"
+    ],
     description: "提出する値：通常スコア"
   },
   "オンゲキ": {
-    songs: ["Never Ending Adventure"],
-    difficulties: ["BAS", "ADV", "EXP", "MAS"],
+    songs: [
+      "Λlteration",
+      "ラグトレイン",
+      "セガサターン起動音[H.][Remix]"
+    ],
+    difficulties: [
+      "BASIC",
+      "ADVANCED",
+      "EXPERT",
+      "MASTER",
+      "LUNATIC"
+    ],
     description: "提出する値：テクニカルスコア"
   },
   "maimai でらっくす": {
-    songs: ["ここからはじまるプロローグ。"],
-    difficulties: ["BAS", "ADV", "EXP", "MAS"],
+    songs: [
+      "悪戯 (ST)",
+      "STEREOSCAPE (DX)",
+      "HANIPAGANDA (DX)"
+    ],
+    difficulties: [
+      "BASIC",
+      "ADVANCED",
+      "EXPERT",
+      "MASTER",
+      "Re:MASTER"
+    ],
     description: "提出する値：通常スコア[%]×10000"
-  },
-  "Arcaea": {
-    songs: ["NEO WINGS"],
-    difficulties: ["PST", "PRS", "FTR"],
-    description: "提出する値：通常スコア"
-  },
-  "Phigros": {
-    songs: ["Reimei"],
-    difficulties: ["EZ", "HD", "IN"],
-    description: "提出する値：ACC[%]×100"
-  },
-  "プロセカ": {
-    songs: ["げんてん"],
-    difficulties: ["EASY", "NORMAL", "HARD", "EXPERT", "MASTER"],
-    description: "提出する値：PERFECT数×2+GREAT数"
-  },
-  "ワールドダイスター 夢のステラリウム": {
-    songs: ["Neustart"],
-    difficulties: ["NORMAL", "HARD", "EXTRA", "STELLA", "OLIVIER"],
-    description: "提出する値：達成率[%]×10000"
-  },
-  "Re:ステージ！プリズムステップ": {
-    songs: ["Dream a gate"],
-    difficulties: ["EASY", "NORMAL", "HARD", "EXPERT"],
-    description: "提出する値：PERFECT数×100+内部[%]"
   }
 };
 
