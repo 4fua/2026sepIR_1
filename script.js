@@ -75,6 +75,20 @@ const settingsDatabase = {
       "Re:MASTER"
     ],
     description: "提出する値：通常スコア[%]×10000"
+  },
+  "太鼓の達人": {
+    songs: [
+      "Fly away",
+      "星屑とリニアと僕",
+      "カグツチ"
+    ],
+    difficulties: [
+      "かんたん",
+      "ふつう",
+      "むずかしい",
+      "おに"
+    ],
+    description: "提出する値：スコア"
   }
 };
 
